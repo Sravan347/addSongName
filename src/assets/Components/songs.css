@@ -1,0 +1,26 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #6eb7ac;
+
+}
+.container {
+  margin-top: 30px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  column-gap: 30px;
+  row-gap: 20px;
+  
+}
+.songs {
+  /* width: 200px; */
+  border: 3px solid black;
+  text-align: center;
+  font-weight: 700;
+  font-family: cursive;
+}.heading{
+  margin-left: 560px;
+}
